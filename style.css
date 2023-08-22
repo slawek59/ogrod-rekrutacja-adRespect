@@ -64,6 +64,11 @@ header > p {
 	justify-items: center;
 }
 
+.offer-button:hover {
+	background-color: #9fddb5;
+	transition: 0.2s;
+}
+
 .offer-button p {
 	font-size: small;
 }
