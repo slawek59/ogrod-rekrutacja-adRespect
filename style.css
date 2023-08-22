@@ -427,7 +427,7 @@ hr {
 
 	.footer-above,
 	.contact-info,
-	.contact-list-1 {
+	.contact-list-1, .footer-above p {
 		flex-direction: column;
 		align-items: center;
 		padding: 10%;
