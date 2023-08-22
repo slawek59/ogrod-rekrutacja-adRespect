@@ -6,7 +6,7 @@
 	margin: 0 15px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 641px) {
 	#desktop {
 		display: none;
 	}
@@ -18,7 +18,7 @@
 	width: 300px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 641px) {
 	#mobile {
 		display: none;
 	}
@@ -208,6 +208,10 @@ a {
 	flex-direction: row;
 }
 
+.instagram p {
+	margin-right: 5%;
+}
+
 footer {
 	background-color: #111111;
 	color: #f5f0ec;
@@ -299,6 +303,20 @@ hr {
 	display: flex;
 	align-items: baseline;
 	margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1060px) {
+	.footer-above, .contact-info, .contact-info ul {
+		flex-direction: column;
+		align-items: center;
+		padding: 10%;
+		justify-content: center;
+		gap: 30px;
+	}
+
+	/* .footer-below {
+
+	} */
 }
 
 .footer-above p {
