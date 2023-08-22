@@ -12,8 +12,6 @@
 	}
 }
 
-
-
 #desktop div {
 	width: 300px;
 }
@@ -306,17 +304,15 @@ hr {
 }
 
 @media only screen and (max-width: 1060px) {
-	.footer-above, .contact-info, .contact-info ul {
+	.footer-above,
+	.contact-info,
+	.contact-list-1 {
 		flex-direction: column;
 		align-items: center;
 		padding: 10%;
 		justify-content: center;
 		gap: 30px;
 	}
-
-	/* .footer-below {
-
-	} */
 }
 
 .footer-above p {
@@ -327,11 +323,6 @@ hr {
 .contact-info {
 	display: flex;
 }
-
-/* .row {
-	display: flex;
-	justify-content: stretch;
-} */
 
 .contact-list-1 {
 	margin-top: 5%;
@@ -354,6 +345,7 @@ hr {
 	margin-right: 0%;
 	padding: 0;
 	list-style-type: none;
+	display: inline;
 	margin-left: auto;
 }
 
