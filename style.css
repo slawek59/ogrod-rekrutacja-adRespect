@@ -354,12 +354,12 @@ hr {
 	margin-right: 0%;
 	padding: 0;
 	list-style-type: none;
-	display: inline;
+	display: flex;
 	margin-left: auto;
 }
 
-.contact-list-2 li {
-	margin-left: 10%;
+.phone {
+	margin-right:  50px;
 }
 
 .contact-list-2 a {
@@ -427,13 +427,15 @@ hr {
 
 	.footer-above,
 	.contact-info,
-	.contact-list-1, .footer-above p {
+	.contact-list-1,
+	.footer-above > p {
 		flex-direction: column;
 		align-items: center;
 		padding: 10%;
-		justify-content: center;
+		justify-items: center;
 		gap: 30px;
 	}
+	
 }
 
 @media only screen and (min-width: 1060px) {
