@@ -436,6 +436,14 @@ hr {
 		gap: 30px;
 	}
 	
+	.contact-list-2 {
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+		justify-content: center;
+		
+	}
 }
 
 @media only screen and (min-width: 1060px) {
