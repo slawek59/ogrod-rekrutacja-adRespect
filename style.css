@@ -1,18 +1,24 @@
+/* body {
+	min-width: 360px;
+} */
+
 #mynavbar li {
 	margin: 0 15px;
 }
 
-@media only screen and (max-width: 279px) {
+@media only screen and (max-width: 500px) {
 	#desktop {
 		display: none;
 	}
 }
 
+
+
 #desktop div {
-	width: 400px;
+	width: 300px;
 }
 
-@media only screen and (min-width: 279px) {
+@media only screen and (min-width: 500px) {
 	#mobile {
 		display: none;
 	}
@@ -25,8 +31,14 @@
 	align-items: center;
 }
 
+@media only screen and (max-width: 1060px) {
+	.header-section {
+		flex-direction: column;
+	}
+}
+
 .header-section > div,
-img {
+.carousel {
 	width: 50%;
 }
 
@@ -45,11 +57,13 @@ header > p {
 
 .header-buttons > button {
 	margin-right: 5%;
+	margin-bottom: 5%;
 }
 
-#vector {
-	width: 8%;
-	display: inline;
+@media only screen and (max-width: 1060px) {
+	#demo {
+		width: 75%;
+	}
 }
 
 .offer {
@@ -72,7 +86,7 @@ header > p {
 
 .offer-button {
 	background-color: white;
-	padding: 10px;
+	padding: 30px;
 	border-radius: 25px;
 	width: 300px;
 	height: 300px;
@@ -103,7 +117,7 @@ header > p {
 }
 
 .icon2 {
-	margin: 5%;
+	margin: 7%;
 	width: 12%;
 	/* width: 48px;
 	height: 28.96; */
@@ -132,12 +146,49 @@ a {
 	align-items: center;
 }
 
+@media only screen and (max-width: 1060px) {
+	.about {
+		flex-direction: column;
+	}
+}
+
+.about img {
+	width: 100%;
+}
+
 .about div {
 	margin: 0 10%;
 }
 
 .about p {
 	margin: 10% 0;
+}
+
+.about button {
+	margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 1060px) {
+	.tiles {
+		display: none;
+	}
+
+	.portfolio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 1060px) {
+	#demo2 {
+		display: none;
+	}
+}
+
+#demo2 {
+	width: 75%;
+	height: 100%;
 }
 
 .portfolio {
